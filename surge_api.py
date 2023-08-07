@@ -4,20 +4,12 @@ import os
 from typing import TypedDict
 
 
-class Request(TypedDict):
-    id: int
-    status: str
-    completed: bool
-    outBytes: int
-    inBytes: int
-
-
 class RecentResponse(TypedDict):
-    requests: list[Request]
+    requests: list[dict]
 
 
 class ActiveResponse(TypedDict):
-    requests: list[Request]
+    requests: list[dict]
 
 
 class SurgeAPI:
