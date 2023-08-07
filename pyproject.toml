@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "surge-statistics"
+version = "0.1.0"
+description = ""
+authors = ["andie <zchangan@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
